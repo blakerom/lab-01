@@ -1,0 +1,19 @@
+body {
+  width: 480px;
+}
+#l-header {
+  height: 75px;
+}
+#l-banner {
+  height: 150px;
+}
+#l-main-content {
+  height: 250px;
+}
+#l-article {
+  height: 500px;
+}
+#l-footer {
+  height: 80px;
+  line-height: 80px;
+}
