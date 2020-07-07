@@ -1,0 +1,78 @@
+
+#l-header div {
+  background-color: saddlebrown;
+}
+#l-banner div {
+  background-color: slategrey;
+}
+#l-main-content div {
+  height: 125px;
+  line-height: 125px;
+  border: 1px solid #808080;
+  text-align: center;
+  background-color: red;
+}
+#l-article div {
+  display: inline-block;
+  width: 240px;
+  height: 250px;
+  line-height: 250px;
+  text-align: center;
+  border: 1px solid #808080;
+}
+
+#l-article div:nth-of-type(odd) {
+  float: left;
+  background-color: green;
+}
+
+#l-article div:nth-of-type(even) {
+  float: right;
+  background-color: blue;
+}
+#l-footer div {
+  background-color: yellow;
+}
+@media only screen and (min-width: 768px){
+  #l-header div {
+    background-color: teal;
+  }
+  #l-banner div {
+    background-color: salmon;
+  }
+  #l-main-content div {
+    border: 1px solid #808080;
+    text-align: center;
+    background-color: forestgreen;
+    width: 380px;
+    height: 200px;
+  }
+  #l-main-content div:nth-of-type(odd) {
+    float: left;
+  }
+  #l-main-content div:nth-of-type(even) {
+    float: left;
+  }
+  #l-article {
+    clear: both;
+    display: inline;
+  }
+  #l-article div {
+    text-align: center;
+    border: 1px solid #808080;
+    width: 190px;
+  }
+
+  #l-article div:nth-of-type(odd) {
+    background-color: orange;
+    float: left;
+  }
+
+  #l-article div:nth-of-type(even) {
+    background-color: purple;
+    float: left;
+  }
+  #l-footer div {
+    background-color: brown;
+  }
+}
