@@ -44,24 +44,33 @@
     border: 1px solid #808080;
     text-align: center;
     background-color: forestgreen;
+    width: 380px;
+    height: 200px;
   }
   #l-main-content div:nth-of-type(odd) {
     float: left;
   }
   #l-main-content div:nth-of-type(even) {
-    float: right;
+    float: left;
+  }
+  #l-article {
+    clear: both;
+    display: inline;
   }
   #l-article div {
     text-align: center;
     border: 1px solid #808080;
+    width: 190px;
   }
 
   #l-article div:nth-of-type(odd) {
     background-color: orange;
+    float: left;
   }
 
   #l-article div:nth-of-type(even) {
     background-color: purple;
+    float: left;
   }
   #l-footer div {
     background-color: brown;
