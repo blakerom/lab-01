@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  background-color: rgb(166, 200, 240);
+}
 body {
   margin: 60px auto;
 }
